@@ -15,7 +15,7 @@ _LOCAL_URL="$1"
 
 if [ ! -z ${JITSI+x} ] && [ "$JITSI" -eq "1" ]
   then
-    _LOCAL_URL="$_LOCAL_URL"'#config.prejoinPageEnabled=false&config.startWithVideoMuted=false&config.enableWelcomePage=false&userInfo.displayName=„Oma"'
+    _LOCAL_URL="$_LOCAL_URL""$JITSI_FLAGS"
 fi 
 
 # Set whether to run Chromium in kiosk mode or not
