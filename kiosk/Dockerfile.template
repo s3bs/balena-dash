@@ -15,6 +15,7 @@ RUN install_packages cec-utils
 COPY --from=builder /go/src/github.com/mozz100/tohora /home/chromium/tohora
 
 COPY launch.sh /home/chromium/
+COPY asound.conf /etc/
 
 # replace command that runs in start script
 COPY alt_start.sh /usr/src/app/
