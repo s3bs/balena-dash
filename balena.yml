@@ -3,7 +3,7 @@ slug: "balena-dash"
 name: "balenaDash"
 type: "sw.application"
 assets:
-  - url: "https://github.com/balenalabs/balena-dash"
+  - url: "https://github.com/s3bs/balena-dash"
     name: "repository"
   - url: "https://raw.githubusercontent.com/balenalabs/balena-dash/master/logo.png"
     name: "logo"
